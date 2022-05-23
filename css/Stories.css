@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Twinkle+Star&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Twinkle+Star&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: rgba(255, 255, 255, 0.6);
+  -webkit-transition: background-color 0.5s;
+  transition: background-color 0.5s;
+}
+
+.navbar .logo {
+  font-family: "Twinkle Star";
+  font-size: 25px;
+  font-weight: 500;
+  color: #990033;
+}
+
+.navbar nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 5px 35px;
+}
+
+.navbar ul {
+  list-style: none;
+}
+
+.navbar li {
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+.navbar li a {
+  font-family: "Poppins";
+  font-size: 20px;
+  text-decoration: none;
+  color: #990033;
+}
+
+.navbar li:hover :not(.logo) {
+  color: #f26871;
+  transition: color 0.3s;
+}
+
+/*.color-change {  //Commenting this makes the NavBar stay transparent 
+  background-color: white;
+  -webkit-transition: background-color 0.5s;
+  transition: background-color 0.5s;
+}*/
+
+.sticky { /*Makes NavBar Sticky using CSS*/
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+
+
+/*ngjyra ne background*/
+
+body {
+  color: #000;
+  background-color: #9e6e06;
+  transition: background-color 1s ease;
+}
+
+
+.panel {
+
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: sans-serif;
+  
+}
+
+.color-vjollce {
+  background-color: #5e02c7;
+}
+.color-blu {
+  background-color: #067ef7;
+}
+.color-jeshile {
+  background-color: #4DCF42;
+}
+.color-verlle {
+  background-color: #FAEB33;
+}
+.color-portokalle {
+  background-color: #F19031;
+}
+.color-kuqe {
+  background-color: #ff0015;
+}
+
+
+body {
+  text-align: center;
+  font-size: 120%;
+  line-height: 1.618;
+}
+h1, h2 {
+  font-size: 3em;
+  letter-spacing: -0.05em;
+  line-height: 1.1;
+}
+p {
+  max-width: 30em;
+  margin-bottom: 1.618em;
+}
+a {
+  color: #4332CF;
+}

@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Twinkle+Star&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Twinkle+Star&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body{
+	background-image: url("../images/background.png");
+}
+
+.navbar {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: rgba(255, 255, 255, 0.6);
+  -webkit-transition: background-color 0.5s;
+  transition: background-color 0.5s;
+}
+
+.navbar .logo {
+  font-family: "Twinkle Star";
+  font-size: 25px;
+  font-weight: 500;
+  color: #990033;
+}
+
+.navbar nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 5px 35px;
+}
+
+.navbar ul {
+  list-style: none;
+}
+
+.navbar li {
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+.navbar li a {
+  font-family: "Poppins";
+  font-size: 20px;
+  text-decoration: none;
+  color: #990033;
+}
+
+.navbar li:hover :not(.logo) {
+  color: #f26871;
+  transition: color 0.3s;
+}
+
+.color-change {
+  background-color: white;
+  -webkit-transition: background-color 0.5s;
+  transition: background-color 0.5s;
+}
+
+.hero{
+  background-image:url("../images/anim3.gif");
+  margin: 0;
+  padding: 300px 10px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+
+.hero p {
+  font-family: "Pacifico";
+  padding: 0.5em 0.2em;
+  font-size: 25px;
+  color: black;
+}
+
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.releases .container {
+  background-color: #2c3e50;
+}
+
+.releases .container .new-releases {
+  font-family: "Pacifico";
+  background-color: #f5aa42;
+  font-size: 25px;
+  color: #990033;
+  display: block;
+  padding: 10px 20px;
+}
+
+.releases .container .desc-releases {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: "Pacifico";
+  font-size: 20px;
+  color: white;
+  padding: 0px 10%;
+}
+
+.releases .container .left-desc-releases {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.releases .container .right-desc-releases {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.about-stories{
+	padding: 1000px 100px;
+}
+/*# sourceMappingURL=index.css.map */

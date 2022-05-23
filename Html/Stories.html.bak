@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Stories</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel="stylesheet" href="../css/Stories.css">
+
+</head>
+<body>
+
+	<div class="sticky">
+		<header class="navbar" id="navbarid">
+			<nav>
+				<ul class="primary-nav">
+					<li ><a href="index.html" class="logo">StoryTales</a></li> 
+					<li class="Home"><a href="index.html" >Home</a></li>
+					<li class="Stories"><a href="Stories.html" >Stories</a></li>
+					<li class="Videos"><a href="Videos.html" class="videos">Videos</a></li>
+					<li class="books"><a href="#Books" class="books">Books</a></li>
+					<li class="lullabies"><a href="#Lullabies" class="lullabies">Lullabies</a></li>
+				</ul>
+				<ul class="secondary-nav">
+					<li><a href="#AboutUs">About Us</a></li>
+					<li><a href="Login.html">Login / Sign Up</a></li>
+					</ul>
+			</nav>      
+		</header>
+	</div>
+
+
+
+
+<div class="panel" data-color="kafe">
+    <div>
+      <h1>Test</h1>
+      <p>ABCD 32235234234234</p>
+  </div>
+</div>
+<div class="panel" data-color="vjollce">
+  <h2>vjollce</h2>
+</div>
+</div>
+<div class="panel" data-color="blu">
+  <h2>Bluhe</h2>
+</div>
+<div class="panel" data-color="jeshile">
+  <h2>Jeshile</h2>
+</div>
+<div class="panel" data-color="verrlle">
+  <h2>Verrlle</h2>
+</div>
+<div class="panel" data-color="portokalle">
+  <h2>Portokalle</h2>
+</div>
+<div class="panel" data-color="kuqe">
+  <h2>Kuqe</h2>
+</div>
+
+  <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script><script  src="../JavaScript/StoriesScript.js"></script>
+
+</body>
+</html>

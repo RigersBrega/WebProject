@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Videos</title>
+  <link rel="stylesheet" href="../css/Videos.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+
+</head>
+<body>
+
+  <div class="sticky">
+       <header class="navbar" id="navbarid">
+           <nav>
+               <ul class="primary-nav">
+                   <li ><a href="index.html" class="logo">StoryTales</a></li> 
+                   <li class="Home"><a href="index.html" >Home</a></li>
+                   <li class="Stories"><a href="Stories.html" >Stories</a></li>
+                   <li class="Videos"><a href="Videos.html" class="videos">Videos</a></li>
+                   <li class="books"><a href="#Books" class="books">Books</a></li>
+                   <li class="lullabies"><a href="#Lullabies" class="lullabies">Lullabies</a></li>
+               </ul>
+               <ul class="secondary-nav">
+                   <li><a href="#AboutUs">About Us</a></li>
+                   <li><a href="Login.html">Login / Sign Up</a></li>
+                </ul>
+            </nav>      
+        </header>
+    
+	</div>
+
+
+<h1>Videos</h1>
+
+<ul class="youtube_videos">
+  <li class="youtube" id="IPytbUghpJM"></li>
+  <li class="youtube" id="IPytbUghpJM"></li>
+  <li class="youtube" id="IPytbUghpJM"></li>
+  <li class="youtube" id="IPytbUghpJM"></li>
+  <li class="youtube" id="IPytbUghpJM"></li>
+  <li class="youtube" id="IPytbUghpJM"></li>
+  <li class="youtube" id="IPytbUghpJM"></li>
+  <li class="youtube" id="IPytbUghpJM"></li>
+
+</ul>
+
+<script src="../JavaScript/VideosScript.js"></script>
+
+</body>
+</html>

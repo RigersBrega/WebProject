@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StoryTales</title>
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+
+<body>
+
+    
+	
+	<div class="sticky">
+       <header class="navbar" id="navbarid">
+           <nav>
+               <ul class="primary-nav">
+                   <li ><a href="index.html" class="logo">StoryTales</a></li> 
+                   <li class="Home"><a href="index.html" >Home</a></li>
+                   <li class="Stories"><a href="Stories.html" >Stories</a></li>
+                   <li class="Videos"><a href="Videos.html" class="videos">Videos</a></li>
+                   <li class="books"><a href="#Books" class="books">Books</a></li>
+                   <li class="lullabies"><a href="#Lullabies" class="lullabies">Lullabies</a></li>
+               </ul>
+               <ul class="secondary-nav">
+                   <li><a href="#AboutUs">About Us</a></li>
+                   <li><a href="Login.html">Login / Sign UP</a></li>
+                </ul>
+            </nav>      
+        </header>
+    
+	</div>
+    <section class="hero">
+        <div class="container">
+            <p>Discover over 1000 stories with different ganre. Exciting Developements, stories with actual meaning etc.</p>
+        </div>
+    </section>
+
+	
+
+    <section class="releases">
+        <div class="container">
+                <p class="new-releases">New Releases</p>
+            <div class="desc-releases">
+                <div class="left-desc-releases">
+                    <img src="../images/catmoon.jpg" alt="Story-Image">
+                    <p>Lorem Ipsum is simply dummy ext of the printingand typesetting industry. 
+                    Lorem Ipsum has been the industry's standard dummy text</p>
+                </div>
+                
+                <div class="right-desc-releases">
+                    <img src="../images/farmer.jpg" alt="Story-Image">
+                    <p>ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make 
+                        a type specimen book. It has survived not .</p>
+                </div>
+            </div>
+        </div>
+    </section>    
+
+    <section class="about-stories">
+        <div class="container">
+            <h2>Why Stories and Books are important</h2>
+            <p>Stories are af fsegf srg sr sdrgdrg dfg dfrg drg drg der drg drg drxg dxrg drtht djf kyuk fujd th</p>
+        </div>
+    </section>
+
+    <section class="best-books">
+        <div class="container">
+            <h2>Best Books For Toddlers</h2>
+            <img src="" alt="">
+            <img src="" alt="">
+            <img src="" alt="">
+        </div>
+    </section>
+
+    <section class="be-updated">
+        <div class="container">
+            <div class="facebooklink">
+                <h3>Stay connected with facebook</h3>
+            </div>
+            <div class="instagramlink">
+                <h3>Keep track of our stories with Instagram</h3>
+            </div>
+            <div class="youtubelink">
+                <h3>Look at some of our video stories with Youtube</h3>
+            </div>
+            <div class="trypremiumpage">
+                <h3>Try premium and enjoy Benefits</h3>
+            </div>
+        </div>
+    </section>
+
+    <script src="../JavaScript/index.js"></script>
+
+</body>
+</html>
